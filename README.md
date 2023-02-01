@@ -50,16 +50,50 @@
 
 ### Register Operations
 
-**LIA [Num:8]** - Load [Num] into A  
-  :   `1010 mmmm llll`
+**LIA** [Num:8]** - Load [Num] into A  
+  :   `1010 mmmm llll`  
 
 **LIB [Num:8]** - Load [Num] into B  
-  :   `1011 mmmm llll`
+  :   `1011 mmmm llll`  
 
 ### Control Flow
 
 **BNE** - Skip following instruction if A and B are not equal  
   :   `1100 xxxx xxxx`  
 
-**JMP [Instruction:8]** - Jump to [Instruction]
-  :   `1101 mmmm llll`
+**JMP [Instruction:8]** - Jump to [Instruction]  
+  :   `1101 mmmm llll`  
+
+## Structure
+
+```
+                          Main Bus
+  /-----------------\       /==\       /--------------------------\
+  | Program Counter | <===> |  | <===> | Accumulator (A Register) |
+  \-----------------/       |  |       \--------------------------/ 
+                            |  |                  /\  \/ 
+  /-----------------\       |  |       /--------------------------\           
+  | Address Register| <==== |  |       |            ALU           |
+  \-----------------/       |  |       \--------------------------/           
+          \/                |  |                    /\
+  /-----------------\       |  |       /--------------------------\             
+  |      RAM        | ====> |  | <===> |        B Register        |
+  \-----------------/       |  |       \--------------------------/
+                            |  | 
+  /-----------------\       |  |       /--------------------------\
+  | Address Register| <==== |  | ====> |      Output Register     |
+  \-----------------/       |  |       \--------------------------/
+          \/                |  | 
+  /-----------------\       |  | 
+  |       ROM       |       |  | 
+  \-----------------/       |  | 
+      \/        \/          |  |
+   /------\  /------\       |  |
+   |  Op  |  | Data | ====> |  |
+   \------/  \------/       \==/
+      \/
+   /----------------\
+   | Instr. Decoder |
+   \----------------/
+     |||||||||||||| Control Lines
+```
