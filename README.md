@@ -42,7 +42,7 @@
 **AND** - Bitwise AND between A and B -> A  
   :   `0111 xxxx xxxx`  
 
-**CMT** - Bitwise completment of A -> A  
+**INV** - Bitwise completment of A -> A  
   :   `1000 xxxx xxxx`  
 
 **INC** - Incrememnt A -> A  
@@ -50,7 +50,7 @@
 
 ### Register Operations
 
-**LIA** [Num:8]** - Load [Num] into A  
+**LIA [Num:8]** - Load [Num] into A  
   :   `1010 mmmm llll`  
 
 **LIB [Num:8]** - Load [Num] into B  
@@ -63,6 +63,11 @@
 
 **JMP [Instruction:8]** - Jump to [Instruction]  
   :   `1101 mmmm llll`  
+
+### Output
+
+**OUT** - Display the value of A  
+  :   `1110 xxxx xxxx`
 
 ## Structure
 

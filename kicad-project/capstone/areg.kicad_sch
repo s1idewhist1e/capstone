@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid cce4cfd0-42d8-463e-ba10-62a258f59f0a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "ALU Bus" (shape bidirectional) (at 139.7 165.1 270)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a13cf5c8-987e-4c0a-9980-53ea18ea5228)
+  )
+  (hierarchical_label "Bus" (shape bidirectional) (at 50.8 101.6 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a1d49eb2-2049-4881-8bed-6c998d08110f)
+  )
+)

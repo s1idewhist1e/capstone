@@ -1,0 +1,23 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid b3506589-17c1-4059-b893-ddabd92df65f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Address" (shape input) (at 241.3 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 10eda9ac-a62b-4cc8-a8ea-85cb7306b2b1)
+  )
+  (hierarchical_label "Operation" (shape output) (at 88.9 152.4 270)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1e5c06e0-6855-44b0-a8e8-81b049861077)
+  )
+  (hierarchical_label "Operand" (shape output) (at 152.4 152.4 270)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b1eefb41-f9a0-41a3-b37a-f20c0d1f4be2)
+  )
+)

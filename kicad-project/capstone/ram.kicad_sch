@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid f85c6597-7b0b-4b69-b0de-768a93b80724)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Bus" (shape bidirectional) (at 254 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6b526cc2-b166-4437-bdf3-23c9b175ef48)
+  )
+)
