@@ -1,6 +1,7 @@
 ; Test assembly file
 	LIA 0x1 
+	LIB 0x1
 main_label:
-	INC
 	OUT
+	SHL
 	JMP main_label
