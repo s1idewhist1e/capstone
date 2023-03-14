@@ -8,6 +8,14 @@
   )
 
 
+  (global_label "clk" (shape input) (at 88.9 63.5 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 23f046e6-0d49-4048-82f0-6bd7cf77e4c6)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 88.8206 58.305 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+  )
+
   (hierarchical_label "Address" (shape input) (at 241.3 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 10eda9ac-a62b-4cc8-a8ea-85cb7306b2b1)
