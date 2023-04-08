@@ -1,4 +1,5 @@
 
+A simple, big endian computer with a 4-bit address space and and an 8 bit data space
 
 
 ## INSTRUCTIONS
