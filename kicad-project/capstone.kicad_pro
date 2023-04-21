@@ -393,7 +393,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Spice",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -432,10 +432,6 @@
       "Operation Register"
     ],
     [
-      "1af90699-ccf2-4878-a6bc-86fde8f298eb",
-      "Operand Register"
-    ],
-    [
       "78a3f8fa-1464-47aa-b1a3-6f19577216ee",
       "Instruction Decoder"
     ],
@@ -462,6 +458,10 @@
     [
       "40298a9c-5a74-4acd-aa00-c14644bf8e5a",
       "Address Register"
+    ],
+    [
+      "16eac0e1-5435-41ce-b93e-3a7478215425",
+      "Instruction Counter"
     ]
   ],
   "text_variables": {}

@@ -8,8 +8,32 @@
   )
 
 
-  (hierarchical_label "In" (shape input) (at 152.4 50.8 270)
-    (effects (font (size 1.27 1.27)) (justify right))
+  (bus_entry (at 152.4 60.96) (size 2.54 -2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 4871fbf8-8d29-4194-b897-bda4ff2c00c0)
+  )
+
+  (bus (pts (xy 152.4 50.8) (xy 152.4 60.96))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a13f842e-7ee5-4dde-bd12-8695eedc9d88)
+  )
+  (bus (pts (xy 152.4 60.96) (xy 152.4 67.31))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid bcc245f1-480a-4e10-80e6-6730398822d4)
+  )
+
+  (wire (pts (xy 154.94 58.42) (xy 163.83 58.42))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c5289719-e5d0-4153-8c93-12fc0bb6cb3c)
+  )
+
+  (label "Instruction7" (at 163.83 58.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2b456512-2aa6-42c1-911c-2d0fc4d490e0)
+  )
+
+  (hierarchical_label "Instruction[0..7]" (shape input) (at 152.4 50.8 90)
+    (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3cea6d58-ab68-4363-9871-043bb5e0500d)
   )
 )

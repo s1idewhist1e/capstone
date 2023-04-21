@@ -1,0 +1,36 @@
+.title KiCad schematic
+D11 Net-_D10-Pad1_ /Bus_{1} LED
+D12 Net-_D10-Pad1_ /Bus_{0} LED
+D10 Net-_D10-Pad1_ /Bus_{2} LED
+R5 GND Net-_D10-Pad1_ 220
+D9 Net-_D10-Pad1_ /Bus_{3} LED
+R6 unconnected-_R6-Pad1_ ~{Reset} 4.7k
+R7 Reset GND 4.7k
+SW1 GND ~{Reset} VCC Reset SW_Push_Dual
+R1 GND Net-_D1-Pad1_ 220
+D8 Net-_D1-Pad1_ /Program_Counter/0 LED
+D1 Net-_D1-Pad1_ /Program_Counter/7 LED
+D2 Net-_D1-Pad1_ /Program_Counter/6 LED
+D3 Net-_D1-Pad1_ /Program_Counter/5 LED
+U1 Net-_U1-Pad1_ /Program_Counter/Set Net-_U1-Pad3_ /Program_Counter/~{LSB}/MSB /Program_Counter/Set Net-_U1-Pad6_ GND Net-_U1-Pad1_ /Program_Counter/~{LSB}/MSB /Program_Counter/~{LSB}/MSB VCC 74LS38
+D5 Net-_D1-Pad1_ /Program_Counter/3 LED
+D4 Net-_D1-Pad1_ /Program_Counter/4 LED
+D6 Net-_D1-Pad1_ /Program_Counter/2 LED
+D7 Net-_D1-Pad1_ /Program_Counter/1 LED
+U3 /Bus_{1} /Program_Counter/5 /Program_Counter/4 Net-_U2-Pad13_ Net-_U2-Pad12_ /Program_Counter/6 /Program_Counter/7 GND /Bus_{3} /Bus_{2} Net-_U1-Pad6_ unconnected-_U3-Pad12_ unconnected-_U3-Pad13_ Reset /Bus_{0} VCC 74LS193
+U4 /Program_Counter/~{LSB}/MSB /Program_Counter/0 /Program_Counter/4 /Bus_{0} /Program_Counter/1 /Program_Counter/5 /Bus_{1} GND /Bus_{3} /Program_Counter/7 /Program_Counter/3 /Bus_{2} /Program_Counter/6 /Program_Counter/2 /Program_Counter/Output_Enable VCC 74LS257
+U2 /Bus_{1} /Program_Counter/1 /Program_Counter/0 unconnected-_U2-Pad4_ /Program_Counter/Increment /Program_Counter/2 /Program_Counter/3 GND /Bus_{3} /Bus_{2} Net-_U1-Pad3_ Net-_U2-Pad12_ Net-_U2-Pad13_ Reset /Bus_{0} VCC 74LS193
+U7 unconnected-_U7-Pad1_ unconnected-_U7-Pad3_ unconnected-_U7-Pad4_ unconnected-_U7-Pad5_ unconnected-_U7-Pad6_ unconnected-_U7-Pad7_ unconnected-_U7-Pad8_ unconnected-_U7-Pad9_ unconnected-_U7-Pad10_ Net-_U7-Pad11_ Net-_U7-Pad12_ Net-_U7-Pad13_ GND Net-_U7-Pad15_ Net-_U7-Pad16_ Net-_U7-Pad17_ Net-_U7-Pad18_ Net-_U7-Pad19_ GND unconnected-_U7-Pad21_ GND unconnected-_U7-Pad24_ unconnected-_U7-Pad25_ VCC VCC M28C16A
+U8 /ROM/~{LSB}/MSB Net-_U7-Pad11_ Net-_U7-Pad16_ /Bus_{0} Net-_U7-Pad12_ Net-_U7-Pad17_ /Bus_{1} GND /Bus_{3} Net-_U7-Pad19_ Net-_U7-Pad15_ /Bus_{2} Net-_U7-Pad18_ Net-_U7-Pad13_ /ROM/~{Output_Enable} VCC 74LS257
+U6 unconnected-_U6-Pad1_ /Address_Register/O7 /Address_Register/O6 /Address_Register/O5 /Address_Register/O4 /Address_Register/O3 /Address_Register/O2 /Address_Register/O1 /Address_Register/O0 unconnected-_U6-Pad11_ unconnected-_U6-Pad12_ unconnected-_U6-Pad13_ GND unconnected-_U6-Pad15_ unconnected-_U6-Pad16_ unconnected-_U6-Pad17_ unconnected-_U6-Pad18_ unconnected-_U6-Pad19_ GND unconnected-_U6-Pad21_ GND unconnected-_U6-Pad24_ unconnected-_U6-Pad25_ VCC VCC M28C16A
+R4 CLK Net-_Q1-Pad1_ R_US
+R3 CLK Net-_C2-Pad2_ R_Variable_US
+Q1 Net-_Q1-Pad1_ ~{CLK} GND Q_NPN_BCE
+C1 Net-_C1-Pad1_ GND CAP
+R2 ~{CLK} Net-_C2-Pad2_ 100k
+C2 GND Net-_C2-Pad2_ CAP
+U5 GND Net-_C2-Pad2_ CLK ~{CLK} Net-_C1-Pad1_ Net-_C2-Pad2_ ~{CLK} ~{CLK} LM555xN
+U11 GND GND /Address_Register/O0 /Address_Register/O1 /Address_Register/O2 /Address_Register/O3 CLK GND Net-_U11-Pad10_ Net-_U11-Pad10_ /Bus_{3} /Bus_{2} /Bus_{1} /Bus_{0} Reset VCC 74LS173
+U9 /Address_Register/Word_Select /Address_Register/Word_Select Net-_U9-Pad3_ Net-_U9-Pad3_ /Address_Register/Write_Enable Net-_U10-Pad10_ GND Net-_U11-Pad10_ /Address_Register/Word_Select /Address_Register/Write_Enable VCC 74LS38
+U10 GND GND /Address_Register/O4 /Address_Register/O5 /Address_Register/O6 /Address_Register/O7 CLK GND Net-_U10-Pad10_ Net-_U10-Pad10_ /Bus_{3} /Bus_{2} /Bus_{1} /Bus_{0} Reset VCC 74LS173
+.end

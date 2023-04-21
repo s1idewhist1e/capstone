@@ -1327,6 +1327,12 @@
     (path "/40298a9c-5a74-4acd-aa00-c14644bf8e5a/2e88e62e-f8b6-4c3b-bc84-9640478b5b58"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c845b52c-d6ae-4e94-b7bd-25dcfc2677eb/2d695e1c-eba9-4cb2-ab77-041a6132e127"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/c845b52c-d6ae-4e94-b7bd-25dcfc2677eb/aaf2eb49-6ca5-49c7-b5bf-0ffb99f96eb7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/43d661c2-7442-45d8-9a0c-31aec2786e4e/7590cf82-bd59-405b-a431-798e6366d885"
       (reference "C?") (unit 1) (value "CAP") (footprint "")
     )
@@ -1400,6 +1406,9 @@
       (reference "U?") (unit 1) (value "LM555xN") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/40298a9c-5a74-4acd-aa00-c14644bf8e5a/33b56775-6531-4769-a629-5b2630ad4d20"
+      (reference "U?") (unit 1) (value "74LS173") (footprint "")
+    )
+    (path "/c845b52c-d6ae-4e94-b7bd-25dcfc2677eb/395a0267-bda9-4731-bbe1-130e4196b985"
       (reference "U?") (unit 1) (value "74LS173") (footprint "")
     )
     (path "/40298a9c-5a74-4acd-aa00-c14644bf8e5a/5eb57ba7-fc0d-4c3a-8647-e5fca12a07ff"

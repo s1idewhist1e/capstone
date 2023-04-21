@@ -98,8 +98,8 @@ A simple, big endian computer with a 4-bit address space and and an 8 bit data s
   |  Op  |   | Data | ====> |  |
   \------/   \------/       \==/
      \/
-  /-----------------\
-  | Instr. Decoder  |
-  \-----------------/
+  /-----------------\     /----------------\
+  | Instr. Decoder  | <=> | Instr. Counter |
+  \-----------------/     \----------------/
     ||||||||||||||| Control Lines
 ```

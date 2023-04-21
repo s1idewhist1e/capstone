@@ -1,0 +1,39 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid f1556987-a806-4673-a4c1-6a31dd18c8c7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (bus_entry (at 139.7 107.95) (size 2.54 2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 00087285-507a-4fe3-a0a6-43e1f86c8a8e)
+  )
+
+  (bus (pts (xy 139.7 105.41) (xy 139.7 107.95))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 79c82307-beea-4bab-97f2-f7bac2d39c09)
+  )
+
+  (wire (pts (xy 142.24 110.49) (xy 149.86 110.49))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9eb0ab7c-bd32-4843-8457-2c482fdfe44d)
+  )
+  (bus (pts (xy 139.7 107.95) (xy 139.7 115.57))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ceddf5ea-0a27-4645-9c3d-77243ef618cf)
+  )
+
+  (label "Out7" (at 149.86 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2806e934-b989-47c6-99bc-2376424f2757)
+  )
+
+  (hierarchical_label "Out[4..7]" (shape output) (at 139.7 115.57 270)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 19e9fc9a-aaee-4623-a068-48a2da6649ff)
+  )
+)
